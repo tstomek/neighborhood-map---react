@@ -49,7 +49,7 @@ class App extends Component {
       zoom: 8
     })
 
-    //InfoWindow
+
     var infowindow = new window.google.maps.InfoWindow()
 
     // Dynamic Markers
@@ -70,7 +70,6 @@ class App extends Component {
         // Change the content
         infowindow.setContent(contentString)
 
-        // Open An InfoWindow
         infowindow.open(map, marker)
       })
 
